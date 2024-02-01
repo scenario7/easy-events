@@ -31,7 +31,7 @@ const Testimonials = () => {
             {testimonials.map((testimonial) => {
                 return(
                     <div className='flex flex-col items-center text-center bg-white rounded-xl p-10 shadow-lg gap-5' key={testimonial.name}>
-                        <Image src={testimonial.image} alt="" className='rounded-full h-24 w-24 object-cover'/>
+                        <img src={testimonial.image} alt="" className='rounded-full h-24 w-24 object-cover'/>
                         <h1 className='text-2xl font-semibold'>{testimonial.name}</h1>
                         <h1 className='text-3xl'>{testimonial.stars}</h1>
                         <h1 className='text-lg'>{testimonial.review}</h1>
