@@ -13,7 +13,7 @@ const HeroSection = () => {
         <Navbar/>
         <div className='px-48 flex flex-col md:flex-row lg:flex-row h-full gap-10 pt-20 items-center'>
             <h1 className='text-white font-bold text-6xl'>Your VIP pass to unforgettable moments.</h1>
-            <Image src={PhoneMockup} className=' h-[700px] object-cover'/>
+            <Image src={PhoneMockup} className=' h-[700px] object-cover' alt='phone-mockup'/>
             <div className='gap-10 flex flex-col'>
             <h1 className='text-white text-lg text-center'>Create a Buzz with Easy Events! India’s first event-specific app tailored for Personal & Social Events.</h1>
             <Image src={Download} className='h-48 object-contain'/>

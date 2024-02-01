@@ -10,7 +10,7 @@ const WhyUs = () => {
             lies in the impeccable execution of an event, creating memories that last a lifetime.
             <br/>
             However, we understand that memories can fade over time, and the efforts put into
-            organizing events may be forgotten. At Easy Events, we go beyond the ordinary. We don't
+            organizing events may be forgotten. At Easy Events, we go beyond the ordinary. We dont
             just organize events; we curate lasting memories. Our mission is to provide you with a
             technology-driven platform known for seamless event organization, creating meaningful
             connections, memorable experiences, immersive community engagement, and personalized
