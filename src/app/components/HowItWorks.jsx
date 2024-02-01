@@ -41,9 +41,9 @@ const HowItWorks = () => {
         <div className='grid grid-cols-3 gap-10'>
             {steps.map((step) => {
                 return(
-                    <div className={`${step.number % 3 === 0 ? 'bg-[#E21A59]' : step.number % 3 === 1 ? 'bg-[#EF5F46]' : 'bg-[#F3733E]'} flex flex-col items-center justify-center p-5 rounded-xl h-36`}>
-                        <h1 className='font-semibold text-2xl text-white'>{step.title}</h1>
-                        <p className='text-white text-center'>{step.description}</p>
+                    <div className={`${step.number % 3 === 0 ? 'bg-[#E21A59]' : step.number % 3 === 1 ? 'bg-[#EF5F46]' : 'bg-[#F3733E]'} flex flex-col items-center justify-center p-5 rounded-xl gap-5`}>
+                        <h1 className='font-semibold text-3xl text-white'>{step.title}</h1>
+                        <p className='text-[#FFEDEA] text-center'>{step.description}</p>
                     </div>
                 )
             })}
