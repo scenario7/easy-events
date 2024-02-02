@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import ContactForm from '../components/ContactForm'
+import CustomFooter from '../components/CustomFooter'
 
 const ContactPage = () => {
   return (
@@ -12,6 +13,7 @@ const ContactPage = () => {
         <div className='py-10'>
             <ContactForm/>
         </div>
+        <CustomFooter/>
     </div>
   )
 }

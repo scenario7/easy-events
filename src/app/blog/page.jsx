@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import BlogCard from '../components/BlogCard'
+import CustomFooter from '../components/CustomFooter'
 
 const BlogsPage = () => {
 
@@ -51,6 +52,7 @@ const BlogsPage = () => {
                 )
             })}
         </div>
+        <CustomFooter/>
     </div>
   )
 }
