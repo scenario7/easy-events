@@ -27,7 +27,7 @@ const Testimonials = () => {
   return (
     <div className='p-10'>
         <h1 className='font-semibold text-3xl pb-10'>What our users have to say</h1>
-        <div className='flex w-full justify-between gap-20 px-72'>
+        <div className='flex w-full justify-between gap-20 px-10'>
             {testimonials.map((testimonial) => {
                 return(
                     <div className='flex flex-col items-center text-center bg-white rounded-xl p-10 shadow-lg gap-5' key={testimonial.name}>

@@ -9,9 +9,9 @@ const HeroSection = () => {
 
 
   return (
-    <div className='bg-gradient-to-b from-[#E21A59] to-[#F3733E] justify-start flex flex-col'>
+    <div className='bg-gradient-to-b from-[#E21A59] to-[#F3733E] justify-start flex flex-col px-10 pt-10'>
         <Navbar/>
-        <div className='px-48 flex flex-col md:flex-row lg:flex-row h-full gap-10 pt-20 items-center'>
+        <div className='flex flex-col md:flex-row lg:flex-row h-full gap-10 pt-20 items-center'>
             <h1 className='text-white font-bold text-6xl'>Your VIP pass to unforgettable moments.</h1>
             <Image src={PhoneMockup} className=' h-[700px] object-cover'/>
             <div className='gap-10 flex flex-col'>

@@ -55,7 +55,7 @@ const Features = () => {
     <div className='flex w-full justify-between'>
         {features.map((feature) => {
             return(
-            <div className={`${feature.color} w-full flex flex-col items-center p-20 gap-10`} key={feature.title}>
+            <div className={`${feature.color} w-full flex flex-col items-center py-20 gap-10`} key={feature.title}>
                 <svg className={`h-16 ${feature.color==='bg-[#ffffff]' ? 'text-black' : 'text-white'}`} dangerouslySetInnerHTML={{ __html: feature.logo }} />
                 <h1 className={`font-semibold text-2xl ${feature.color === 'bg-[#ffffff]' ? 'text-black' : 'text-white'}`}>{feature.title}</h1>
             </div>
